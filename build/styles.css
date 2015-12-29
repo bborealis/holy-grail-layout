@@ -45,6 +45,27 @@ header, footer {
     background: peachpuff;
     width: 160px; }
 
+.media, .search-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 600px; }
+  .media img, .search-group img {
+    margin-right: 10px; }
+  .media .media-content, .search-group .media-content {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+  .media input, .search-group input {
+    padding: 10px; }
+    .media input[type="text"], .search-group input[type="text"] {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1; }
+
 @media (max-width: 800px) {
   .content {
     -webkit-box-orient: vertical;

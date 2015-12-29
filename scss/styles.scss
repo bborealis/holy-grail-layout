@@ -38,6 +38,26 @@ header, footer {
   }
 }
 
+.media, .search-group{
+  display: flex;
+  max-width: 600px;
+
+  img {
+    margin-right: 10px;
+  }
+
+  .media-content {
+    flex-grow : 1;
+  }
+  input {
+    padding: 10px;
+
+    &[type="text"] {
+      flex: 1;
+    }
+  }
+}
+
 @media (max-width: 800px) {
   .content {
     flex-direction: column;

@@ -26,6 +26,18 @@ header, footer {
     background: peachpuff;
     width: 160px; }
 
+.media, .search-group {
+  display: flex;
+  max-width: 600px; }
+  .media img, .search-group img {
+    margin-right: 10px; }
+  .media .media-content, .search-group .media-content {
+    flex-grow: 1; }
+  .media input, .search-group input {
+    padding: 10px; }
+    .media input[type="text"], .search-group input[type="text"] {
+      flex: 1; }
+
 @media (max-width: 800px) {
   .content {
     flex-direction: column; }
