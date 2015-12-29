@@ -10,4 +10,4 @@ _Code along from DevTips_
 _Download repository and open index.html in the browser of your choice._
 
 ## Technologies Used
-_HTML, Sass, Flexbox_
+_HTML, Sass, Flexbox, Bourbon, Gulp.js, autoprefixer_

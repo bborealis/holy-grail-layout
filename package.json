@@ -1,0 +1,23 @@
+{
+  "name": "holy-grail-layout",
+  "version": "1.0.0",
+  "description": "#### By Brian Borealis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bborealis/holy-grail-layout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bborealis/holy-grail-layout/issues"
+  },
+  "homepage": "https://github.com/bborealis/holy-grail-layout#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0"
+  }
+}
